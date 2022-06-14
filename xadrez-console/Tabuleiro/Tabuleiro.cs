@@ -19,7 +19,7 @@ namespace tabuleiro
             return pecas[linha, coluna];
         }
 
-        public void colocarPeca(Peca p , Posicao pos)
+        public void colocarPeca(Peca p , Posicao pos) // Metodo de colocar peca pois o atributo eh privado
         {
             pecas[pos.linha, pos.coluna] = p;
             p.posicao = pos;
